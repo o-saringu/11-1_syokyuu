@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>第11章配列　STEP1-初級問題</title>
+	<link rel = "stylesheet" href="website.css">
+</head>
+
+<body>
+	<div class = "title">
+	<h1 class = "daimei">プログラム復習コンテンツ</h1>
+	<div class="home"></div>
+	</div>
+
+	<h1 class = "daimei2">第11章配列　STEP1-初級問題</h1>
+
+	<div class = "yokonarabi">
+	<div class = "mondai">
+	<p class="midasi1">問題のコード</p>
+	<img src="11syou_1_syokyuu_mondai.png">
+	</div>
+
+	<div class = "gamen">
+	<p class="midasi2">プログラム実行画面</p>
+	<div class = "video">
+	<video controls muted autoplay loop src="11syou_1_syokyuu_kekka.mp4"></video>
+	</div>
+	</div>
+	</div>
+
+	<p class="midasi3">問題文</p>
+	<div class = "mondaibun">
+	<p>上図は,２つの図形が左から右へ動くプログラムです.</p>
+	<p>(1)データ型を整数として,xを配列を宣言してください</p>
+	<p>(2)配列を生成し,2つの配列を定義してください.</p>
+	<p>(3)要素0に値(-20)を代入してください.</p>
+	<p>(4)要素1に値(20)を代入してください.</p>
+	<input type="checkbox" id="check1">
+	<label class="check1" for="check1">ヒント</label>
+	<div class = "hinto">
+	<p>(1)(2)(3)(4)配列を作るには以下のように記述する.</p>
+	<p>1.データ型を定義し,配列を宣言　データ型[] 変数;　 </p>
+	<p>2.配列を生成し,長さを定義　　  変数 = new データ型[要素数] </p>
+	<p>3.各要素に値を代入     　　　　変数[要素数] = 値</p>
+	</div>
+	</div>
+	
+	<p class="midasi4">解答欄</p>
+	<div class = "kaitouran">
+	<p>
+	<label>(1)<input type="text" id="one" size="80" placeholder="解答を入力"></label>
+	<p id = "text1"></p>
+	</p>
+
+
+	<p>
+	<label>(2)<input type="text" id="two" size="80" placeholder="解答を入力"</label>
+	<p id = "text2"></p>
+	</p>
+
+	<p>
+	<label>(3)<input type="text" id="three" size="80" placeholder="解答を入力"</label>
+	<p id = "text3"></p>
+	</p>
+
+	<p>
+	<label>(4)<input type="text" id="four" size="80" placeholder="解答を入力"</label>
+	<p id = "text4"></p>
+	</p>
+
+
+	<p>(1)int[] x;</p>
+	<p>(2)x = new int[2];</p>
+	<p>(3)x[0]=-20;</p>
+	<p>(4)x[1]=20;</p>
+	
+	<input type="button" id="btn" value="判定">
+	
+	
+	</div>
+
+	<script src = "main.js"></script>	
+</body>
+
+</html>
